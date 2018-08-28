@@ -8,11 +8,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-
 x-kinRank: "7"
 x-alexaRank: "7271"
 tags: Range
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/range/master/_listings/logmein/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: GoToTraining API - Get Sessions by Date Range
+  x-api-slug: reportsorganizersorganizerkeysessions-post
+  description: Get sessions by date range.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
+  humanURL: http://www.LogMeInInc.com
+  baseURL: https://api.getgo.com//G2T/rest
+  tags: SaaS, Technology, Enterprise, Voice, Videoconferencing, Audio, Webinars, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/range/master/_listings/logmein/reportsorganizersorganizerkeysessions-post-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/logmein
